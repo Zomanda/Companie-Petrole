@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body {
+    background: url("../Images/background.jpg");
+    background-color: #210011;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'Questrial', sans-serif;
+}
+
+h1{
+    color: #FEA273;
+    text-shadow:  1px 1px 5px #210011;
+    letter-spacing: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li > a.nav-link{
+    color: #FEA273;
+    text-shadow:  1px 1px 5px #210011;
+}
+
+li > a:hover{
+    color: #210011;
+}
