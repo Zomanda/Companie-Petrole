@@ -4,13 +4,9 @@ html, body{
     height: 100%;
 }
 
-*{
-    box-sizing: border-box;
-}
-
 body {
-    background: rgb(255,69,28);
-    background: linear-gradient(180deg, rgba(255,69,28,1) 15%, rgba(33,0,17,1) 85%); 
+    background: url("../Images/background.jpg");
+    background-color: #210011;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -34,26 +30,4 @@ li > a.nav-link{
 
 li > a:hover{
     color: #210011;
-}
-
-form{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: space-around;
-}
-
-.form-group{
-    padding: 20px;
-}
-
-label{
-    text-shadow: rgba(255,255,255,0.2) 2px 2px 4px;
-}
-
-.form-group > button{
-    background-color: #210011;
-    border-color: #210011;
-    color: white;
 }
