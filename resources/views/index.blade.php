@@ -32,10 +32,10 @@
                 Gisement
             </a>
             <ul class="dropdown-menu" aria-labelledby="GisementDropDown">
-                <li><a href="#" class="dropdown-item">Consulter</a></li>
-                <li><a href="#" class="dropdown-item">Ajouter</a></li>
-                <li><a href="#" class="dropdown-item">Modifier</a></li>
-                <li><a href="#" class="dropdown-item">Supprimer</a></li>
+                <li><a href={{ url('/Gisement') }} class="dropdown-item">Consulter</a></li>
+                <li><a href={{ url('/Gisement/Ajout') }} class="dropdown-item">Ajouter</a></li>
+                <li><a href={{ url('/Gisement/Modifier') }} class="dropdown-item">Modifier</a></li>
+                <li><a href={{ url('Gisement/Supprimer')}} class="dropdown-item">Supprimer</a></li>
             </ul>
         </li>
     </ul>
