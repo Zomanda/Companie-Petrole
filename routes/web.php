@@ -26,7 +26,7 @@ Route::get('/Companie/Ajout', function(){
     return view('Companie.ajoutCompanie');
 });
 
-Route::get('/Comnpanie/Modifier', function(){
+Route::get('/Companie/Modifier', function(){
     return view('Companie.modifierCompanie');
 });
 
