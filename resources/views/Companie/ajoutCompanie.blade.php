@@ -9,7 +9,7 @@
         </div>
         <div class="form-group col-xl-4">
             <label for="numEmploye">Nombre d'employé(s)</label>
-            <input type="number" class="form-control" name="numEmploye" required>
+            <input type="number" class="form-control" name="numEmploye" min="1" required>
         </div>
         <div class="form-group col-xl-4">
             <label for="cartel">Cartel</label>
