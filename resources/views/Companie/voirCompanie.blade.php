@@ -16,7 +16,6 @@
     </div>
     <div class="row justify-content-lg-center hidden-content">
         <!-- mettre contenu ici-->
-        <h1>test</h1>
     </div>
 </div>
 @endsection
