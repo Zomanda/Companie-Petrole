@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-md-center">
         <div class="col-lg-4">
-            <select class="form-select" onchange="ChangeVisbility()">
+            <select class="form-select">
                 <option selected>Veuillez choisir une companie</option>
             </select>
         </div>

@@ -2,8 +2,8 @@
 
 @section('contenu')
 <script>
-    function ChangeVisbility(){
-        document.getElementById("CompanieModifierForm").style.visibility = "visible";
+     function ChangeVisbility(){
+        document.getElementsByClassName("hidden-content").style.visibility = "visible";
     }
 </script>
     <div class="container">
